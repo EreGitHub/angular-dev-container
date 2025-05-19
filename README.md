@@ -67,7 +67,7 @@ Dentro del contenedor, abre una terminal:
 
 ```bash
 ng new my-app
-ng serve
+ng serve --host 0.0.0.0   # Inicia el servidor de desarrollo
 ```
 
 ### 4. Usar un proyecto Angular existente
@@ -84,7 +84,7 @@ git clone https://github.com/usuario/proyecto-angular.git .
 ```bash
 git clone https://github.com/usuario/proyecto-angular.git .
 npm install
-ng serve
+ng serve --host 0.0.0.0   # Inicia el servidor de desarrollo
 ```
 
 ---
