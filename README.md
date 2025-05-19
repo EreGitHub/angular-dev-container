@@ -1,7 +1,5 @@
 # 🛠️ Angular Dev Container para VS Code
 
-<!-- ![Angular Logo](https://angular.io/assets/images/logos/angular/angular.svg)
-![Docker Logo](https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png) -->
 <p align="center">
   <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="Angular Logo" width="100" style="margin-right: 20px;"/>
   <img src="https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png" alt="Docker Logo" width="100"/>
