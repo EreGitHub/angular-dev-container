@@ -1,0 +1,31 @@
+{
+  "name": "Angular Development Environment",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "args": {
+      "NODE_VERSION": "22.11.0",
+      "ANGULAR_VERSION": "19.0.1"
+    }
+  },  
+  "initializeCommand": "mkdir -p ${localWorkspaceFolder}/src",  
+  "workspaceMount": "source=${localWorkspaceFolder}/src,target=/workspace,type=bind",  
+  "workspaceFolder": "/workspace",
+  "forwardPorts": [4200, 9876],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "angular.ng-template",
+        "esbenp.prettier-vscode",                
+        "editorconfig.editorconfig"
+      ],
+      "settings": {
+        "editor.formatOnSave": true,        
+        "files.exclude": {
+          "**/node_modules": true
+        }
+      }
+    }
+  },
+  "remoteUser": "node",
+  "postCreateCommand": "echo 'Dev container for Angular ready!'"
+}
