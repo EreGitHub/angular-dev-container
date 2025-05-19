@@ -4,6 +4,7 @@
   <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="Angular Logo" width="100" style="margin-right: 20px;"/>
   <img src="https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png" alt="Docker Logo" width="100"/>
 </p>
+
 Este repositorio proporciona un entorno de desarrollo aislado y reproducible para aplicaciones Angular, utilizando [Dev Containers](https://code.visualstudio.com/docs/devcontainers/containers) de Visual Studio Code. Ideal para desarrolladores que buscan un entorno consistente sin tener que instalar herramientas localmente.
 
 ---
@@ -20,7 +21,7 @@ Este repositorio proporciona un entorno de desarrollo aislado y reproducible par
 ---
 
 ## ✅ Requisitos
-
+[Dev Containers](https://code.visualstudio.com/docs/devcontainers/containers)
 - [Docker](https://www.docker.com/products/docker-desktop)
 - [Visual Studio Code](https://code.visualstudio.com/)
 - Extensión [Remote - Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) instalada en VS Code.
