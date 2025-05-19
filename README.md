@@ -45,7 +45,7 @@ angular-dev-container/
 ### 1. Clonar este repositorio
 
 ```bash
-git clone https://github.com/tu-usuario/angular-dev-container.git
+git clone https://github.com/EreGitHub/angular-dev-container.git
 cd angular-dev-container
 ```
 
